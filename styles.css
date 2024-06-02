@@ -52,11 +52,11 @@ body {
 
 @media screen and (max-width: 576px) {
   .main-info,
-  .contact_info_container {
+  .contact-info__container {
     flex-direction: column;
   }
 
-  .contact_info_container {
+  .contact-info__container {
     align-items: center;
   }
 
@@ -156,7 +156,7 @@ body {
   fill: var(--text-decoration-color);
 }
 
-.intro_text {
+.intro__text {
   color: var(--secondary-text-color);
   text-align: justify;
 }
